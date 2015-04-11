@@ -5,7 +5,7 @@ version = '1.0'
 
 setup(name='ifit.content',
       version=version,
-      description="IFIT content tyypes and views",
+      description="IFIT content types and views",
       long_description=open("README.txt").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from

@@ -24,9 +24,9 @@
        in Plone -->
   <genericsetup:registerProfile
       name="default"
-      title="IFIT content tyypes and views"
+      title="IFIT content types and views"
       directory="profiles/default"
-      description="Extension profile for IFIT content tyypes and views"
+      description="Extension profile for IFIT content types and views"
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
 
