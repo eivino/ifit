@@ -5,7 +5,7 @@
 
     <browser:page
        name="activityview"
-       for="*"
+       for="ifit.content.interfaces.IActivity"
        layer="zope.interface.Interface"
        class=".views.ActivityView"
        template="templates/activityview.pt"
