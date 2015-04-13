@@ -35,5 +35,7 @@
   <include package=".browser" />
   
   <include package=".behaviors" />
+  
+  <include file="upgrades.zcml" />
 
 </configure>
