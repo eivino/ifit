@@ -33,6 +33,7 @@
   <element value="plone.app.versioningbehavior.behaviors.IVersionable"/>
   <element
      value="plone.app.contenttypes.behaviors.tableofcontents.ITableOfContents"/>
+  <element value="ifit.content.interfaces.IActivity"/>
  </property>
  <property name="schema"></property>
  <property

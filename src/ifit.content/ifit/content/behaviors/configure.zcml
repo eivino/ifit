@@ -1,0 +1,12 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="ploneconf.site">
+    
+  <plone:behavior
+    title="Activity"
+    description="Marker interface for activities to be able to bind views to."
+    provides="..interfaces.IActivity"
+    />
+
+</configure>

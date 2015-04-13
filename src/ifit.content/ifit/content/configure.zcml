@@ -33,5 +33,7 @@
   <!-- -*- extra stuff goes here -*- -->
   
   <include package=".browser" />
+  
+  <include package=".behaviors" />
 
 </configure>
