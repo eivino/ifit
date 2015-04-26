@@ -5,10 +5,10 @@
   i18n_domain="ifit.content">
 
   <genericsetup:upgradeStep
-    title="Update and cleanup activities"
+    title="Update content types"
     description="Updates typeinfo"
-    source="1"
-    destination="1001"
+    source="1001"
+    destination="1002"
     handler="ifit.content.upgrades.upgrade_content"
     sortkey="1"
     profile="ifit.content:default"

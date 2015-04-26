@@ -8,5 +8,11 @@
     description="Marker interface for activities to be able to bind views to."
     provides="..interfaces.IActivity"
     />
+  
+  <plone:behavior
+    title="Publication"
+    description="Marker interface for publications to be able to bind views to."
+    provides="..interfaces.IPublication"
+    />
 
 </configure>

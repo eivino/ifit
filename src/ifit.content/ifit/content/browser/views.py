@@ -15,5 +15,5 @@ class ActivityView(BrowserView):
         
         
 class ActivityView(DefaultView):
-    """ The default view for talks
+    """ The default view for activities
     """
