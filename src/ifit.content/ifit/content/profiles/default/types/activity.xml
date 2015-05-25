@@ -38,7 +38,21 @@
  <property name="schema"></property>
  <property
     name="model_source">&lt;model xmlns:i18n="http://xml.zope.org/namespaces/i18n" xmlns:security="http://namespaces.plone.org/supermodel/security" xmlns:marshal="http://namespaces.plone.org/supermodel/marshal" xmlns:form="http://namespaces.plone.org/supermodel/form" xmlns="http://namespaces.plone.org/supermodel/schema"&gt;
-    &lt;schema/&gt;
+    &lt;schema&gt;
+      &lt;field name="status" type="zope.schema.Set"&gt;
+        &lt;description&gt;Set the status of the activity/project&lt;/description&gt;
+        &lt;required&gt;False&lt;/required&gt;
+        &lt;title&gt;Status&lt;/title&gt;
+        &lt;value_type type="zope.schema.Choice"&gt;
+          &lt;values&gt;
+            &lt;element&gt;Completed&lt;/element&gt;
+            &lt;element&gt;Current&lt;/element&gt;
+            &lt;element&gt;Future&lt;/element&gt;
+            &lt;element&gt;&lt;/element&gt;
+          &lt;/values&gt;
+        &lt;/value_type&gt;
+      &lt;/field&gt;
+    &lt;/schema&gt;
   &lt;/model&gt;</property>
  <property
     name="model_file">plone.app.contenttypes.schema:document.xml</property>
