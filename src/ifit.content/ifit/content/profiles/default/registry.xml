@@ -1,7 +1,7 @@
 <registry>
   <records interface="plone.app.querystring.interfaces.IQueryField"
            prefix="plone.app.querystring.field.status">
-    <value key="title">Status</value>
+    <value key="title">Activity status</value>
     <value key="description">Status of an activity</value>
     <value key="enabled">True</value>
     <value key="sortable">False</value>
