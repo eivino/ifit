@@ -12,4 +12,12 @@
        permission="zope2.View"
        />
 
+
+    <browser:resource
+       name="ifit-main.js"
+       layer="zope.interface.Interface"
+       file="main.js"
+       permission="zope2.View"
+       />
+
 </configure>
