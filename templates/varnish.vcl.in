@@ -71,6 +71,7 @@ sub vcl_fetch {
         return(pass);
     }
     call rewrite_s_maxage;
+    set req.url = "/VirtualHostBase/https/ifit-transitions.org:443/Plone/VirtualHostRoot" + req.url;
     return(deliver);
 }
 
