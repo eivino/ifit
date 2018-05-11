@@ -40,7 +40,7 @@ sub vcl_recv {
     }
     call normalize_accept_encoding;
     call annotate_request;
-    set req.url = "/VirtualHostBase/https/ifit-transitions.org:443/Plone/VirtualHostRoot" + req.url;
+    set req.url = "/VirtualHostBase/https/ifit-transitions.org:443/Plone/VirtualHostRoot" req.url;
     return(lookup);
 }
 
